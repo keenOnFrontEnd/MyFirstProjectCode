@@ -1,0 +1,27 @@
+.new {
+    float: left;
+    min-width: 90px;
+    min-height: 50px;
+    max-width: 150px;
+    height: auto;
+    width: auto;
+    
+}
+.newText {
+    word-wrap: break-word;
+    min-width: 80px;
+    min-height: 25px ;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: gainsboro;
+    text-align: left;
+}
+.time {
+
+    font-size: 10px;
+    width: 20px;
+    height: 15px;
+    margin-left: 120px;
+    text-align: right;
+}

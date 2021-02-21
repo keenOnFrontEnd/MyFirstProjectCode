@@ -1,0 +1,12 @@
+body {
+    background-color: #65c3c2;
+    background: linear-gradient(90deg,#65c3c2 0%, #5077ca 80%);
+    background: -webkit-linear-gradient(90deg,#65c3c2 0%, #5077ca 80%);
+    background: -moz-linear-gradient(90deg,#65c3c2 0%, #5077ca 80%);
+}
+.box {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+   
+}

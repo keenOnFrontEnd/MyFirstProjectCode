@@ -1,0 +1,109 @@
+  .profile {
+    grid-area: c;
+    background-color: salmon;
+    display: flex;
+ 
+}
+.post_box {
+display: flex;
+justify-content: space-around;
+}
+                .posts_wrapper{
+                   margin-left: 50px;
+                    width: 40%;
+                    min-width: 15%;
+                    margin: 5px;
+                    padding: 10px;
+                    display: flex;
+                       }
+  .posts{
+width: 100%;
+color: white;
+font-size:x-large;
+text-align: center;
+       }
+              .my_post_wrapper {
+               display: flex;
+               flex-wrap: wrap;
+                 width: 40%;
+                 padding: 15px;
+                 min-width: 15%;
+                 margin: 5px;
+                 height: 25%;
+                 
+                 min-height: 200px;
+                  }
+  .my_post{
+    display: flex;
+    flex-direction: column;
+   
+    color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+  }
+  .my_post > h2{
+   min-width: 60%;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+  }
+  .post_form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .new_post_wrapper {
+   background-color: rosybrown;
+   width: 80%;
+   height: 160px;
+   border-radius: 15px 15px 15px 15px;
+-webkit-border-radius: 15px 15px 15px 15px;
+-moz-border-radius: 15px 15px 15px 15px;
+
+  }
+  .ta {
+       font-size: large;
+    margin: 10px 0px 0px 5px;
+    width: 80%;
+    height: 90px;
+    resize: none;
+  }
+ .b {
+   margin: 10px;
+   width: 90px;
+   height: 30px;
+   font-size: large;
+   float: right;
+   color: white;
+   background-color:#00264d ;
+}
+.mypostsRow{
+  width: 50%;
+}
+
+@media (max-width: 1300px) {
+  .post_box {
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .posts_wrapper {
+    width: 100%;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .posts {
+    width: 600px;
+  }
+  .my_post_wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+  .my_post {
+    width: 500px;
+  }
+}

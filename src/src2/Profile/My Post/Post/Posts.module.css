@@ -1,0 +1,14 @@
+.posts_{
+    float: right;
+    width: 40%;
+    min-width: 15%;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+       }
+.posts{
+width: 100%;
+color: white;
+font-size:x-large;
+text-align: center;
+}

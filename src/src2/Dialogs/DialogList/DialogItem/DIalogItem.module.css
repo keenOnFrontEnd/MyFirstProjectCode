@@ -1,0 +1,21 @@
+.dialog{
+    background-color: lavender;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid;
+}
+.dialog :active{
+    color: red; 
+    background-color: lavender;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+    text-decoration: none;
+   }
+ .dialog :link{
+    color: red; 
+    background-color: lavender;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+    text-decoration: none;
+   }

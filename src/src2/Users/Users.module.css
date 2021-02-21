@@ -1,0 +1,86 @@
+
+
+
+
+.main_users_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    width: 96%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+
+.users_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+.main_wrapper {
+    display: flex;
+    flex-direction: column;
+    
+    width: 150px;
+    position: relative;
+    align-items: center;
+    margin: 15px;
+    transition: 0.3s;
+}
+.main_wrapper:hover {
+    box-shadow: 2px 0px 38px 8px rgba(0,0,0,0.48);
+-webkit-box-shadow: 2px 0px 38px 8px rgba(0,0,0,0.48);
+-moz-box-shadow: 2px 0px 38px 8px rgba(0,0,0,0.48);
+}
+.main_wrapper .main_photo .img {
+    width: 120px;
+    height: 120px;
+}
+.main_photo .buttons > button {
+    display: none;
+}
+.buttons {
+    width: 100%;
+    color: black;
+    font-family: "Trebuchet MS" ;
+    display: flex;
+    justify-content: center ;
+    margin-top: 10px;
+    border: rgba(17, 233, 157, 0.741) 2px solid;
+    transition: 0.3s;
+}
+.buttons:hover {
+    background-color: rgba(17, 233, 157, 0.251)
+}
+.buttons.unfollow {
+    background-color: rgba(17, 233, 157, 0.619);
+    color: white;
+    transition: 0.3s;
+}
+.in_progress_buttons {
+    filter: grayscale(0.1);
+    transition-duration: 0.2s;
+}
+.main_info {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 15px;
+    font-family: "Trebuchet MS" sans-serif ;
+    text-align: center;
+}
+.main_info > div:last-of-type {
+    font-size: 22px;
+    margin-top: 10px;
+    border: white 1px solid;
+    color: white;
+    word-break: break-word;
+    letter-spacing: 0px;
+}
+@media (max-width: 500px) {
+    .main_users_wrapper {
+        padding: 0px;
+    }
+}

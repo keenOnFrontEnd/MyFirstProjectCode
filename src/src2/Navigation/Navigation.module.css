@@ -1,0 +1,124 @@
+    .nav {
+        background-color: #2a69a7;
+        min-height: 100%;
+        transform: translateX(-100%); 
+    }
+    .nav {
+        position: fixed;
+        display: flex;
+        flex-direction: column;      
+        top:0;
+        left: 0;
+        z-index: 12;
+        transition: 1s;
+    }
+    .nav_active {
+        transform: translateX(0%);
+    }
+    .logo{
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 90px;
+        height: 90px;
+    }
+    .highBox {
+        position: relative;
+        margin: 5px;        
+       
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 180px;
+           
+    }
+ 
+    .box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+   
+        width: 100%;
+        height: 170px;
+    }
+    .item{
+        color: white;
+        width: 50%;
+        text-align: center;
+    }
+    .active {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: Georgia;
+    }
+    .menu_btn {
+        width: 50px;
+        height: 30px;
+        border: 1px white solid;
+        border-radius: 5px;
+        position: absolute;
+        top: 10px;
+        right: -65px;
+        
+    }
+    .menu_btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: black;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    .menu_btn button {
+        display: none;
+    }
+    .friends{
+        border: 4px double white ;
+        width: 150px;
+        text-align: center;
+        height: auto;
+        min-height: 200px;
+        top: 50px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .friend img{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        border: yellowgreen;
+
+    }
+    .friend :any-link  {
+        display: inline-block;
+        justify-items: left;
+        text-align: center;
+        margin-right: 5px;
+        text-decoration: none;
+        color: darkblue;
+        font-size: x-small;
+    }
+    .img_div{
+        float: left;
+        margin: 15px auto;
+    }
+    .img_div p{
+        font-family: 'Times New Roman';
+        font-size: small;
+        float: right;
+    }
+    .hidden {
+        visibility: hidden;
+    }

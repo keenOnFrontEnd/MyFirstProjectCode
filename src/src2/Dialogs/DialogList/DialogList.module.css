@@ -1,0 +1,14 @@
+.main_wrapper {
+    border: 1px solid;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end
+}
+.main_wrapper > div {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: auto;
+}
